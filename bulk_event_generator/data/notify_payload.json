@@ -1,0 +1,321 @@
+{
+  "interface": "notifyEvent",
+  "inputs": {
+    "event": {
+      "_type": "bp.nsi.v2_0.freExpectationValidated",
+      "expectation_type": "fre",
+      "state": "validated",
+      "expectationId": "820599826141136524::5ee36f6d-9db0-46a4-83d3-9c088f7c8376",
+      "actual": {
+        "data": {
+          "id": "820599826141136524",
+          "type": "fres",
+          "attributes": {
+            "operationState": "In Service",
+            "deploymentState": "complete in network",
+            "intentLifeCycle": "provisioned",
+            "userData": {
+              "ossLabel": "SNCP_ODU2_TAIL_CONN1_TS3"
+            },
+            "displayData": {
+              "operationState": "Up",
+              "adminState": "Enabled",
+              "displayTopologySource": "Derived",
+              "displayDeploymentState": "Deployed"
+            },
+            "resourceState": "plannedAndDiscovered",
+            "policies": {
+              "defaultAttributeSourcePolicy": "discoveredOverPlanned",
+              "overrides": [
+                {
+                  "attributeName": "attributes.userLabel",
+                  "policies": [
+                    "plannedOverDiscovered"
+                  ]
+                }
+              ]
+            },
+            "serviceClass": "Transport Client",
+            "userLabel": "SNCP_ODU2_TAIL_CONN1_TS3",
+            "mgmtName": "",
+            "nativeName": "",
+            "layerRate": "ODU2",
+            "layerRateQualifier": "ODU2",
+            "networkRole": "IFRE",
+            "directionality": "bidirectional",
+            "topologySources": [
+              "stitched"
+            ],
+            "adminState": "In Service",
+            "signalContentType": "ODU2",
+            "active": true,
+            "additionalAttributes": {
+              "owner": "USER",
+              "isActual": "true",
+              "profile": "NCP_SNCP",
+              "sncpDiscovered": "true",
+              "resiliencyFre": "-6117729494113404183"
+            },
+            "reliability": "auto",
+            "resiliencyHandlingPackage": [
+              {
+                "layerRateStack": [
+                  "ODU2"
+                ],
+                "edges": [
+                  {
+                    "switchTpeId": "network1::G8175-NEB::ODUCTP-2-14-1-2P1::resiliency"
+                  },
+                  {
+                    "switchTpeId": "network1::G8175-NEB::ODUCTP-2-15-1-2P1::resiliency"
+                  }
+                ],
+                "commonEdgeTpeId": "network1::G8175-NEB::ODUCTP-2-13-1-2P1::resiliency"
+              },
+              {
+                "layerRateStack": [
+                  "ODU2"
+                ],
+                "edges": [
+                  {
+                    "switchTpeId": "network1::G8175-NEA::ODUCTP-1-14-1-2P1::resiliency"
+                  },
+                  {
+                    "switchTpeId": "network1::G8175-NEA::ODUCTP-1-15-1-2P1::resiliency"
+                  }
+                ],
+                "commonEdgeTpeId": "network1::G8175-NEA::ODUCTP-1-13-1-2P1::resiliency"
+              },
+              {
+                "layerRateStack": [
+                  "ODU2"
+                ],
+                "edges": [
+                  {
+                    "switchTpeId": "network1::G8175-NEB::ODUCTP-2-15-1-2P1::resiliency"
+                  },
+                  {
+                    "switchTpeId": "network1::G8175-NEB::ODUCTP-2-14-1-2P1::resiliency"
+                  }
+                ],
+                "commonEdgeTpeId": "network1::G8175-NEB::ODUCTP-2-13-1-2P1::resiliency"
+              },
+              {
+                "layerRateStack": [
+                  "ODU2"
+                ],
+                "edges": [
+                  {
+                    "switchTpeId": "network1::G8175-NEA::ODUCTP-1-15-1-2P1::resiliency"
+                  },
+                  {
+                    "switchTpeId": "network1::G8175-NEA::ODUCTP-1-14-1-2P1::resiliency"
+                  }
+                ],
+                "commonEdgeTpeId": "network1::G8175-NEA::ODUCTP-1-13-1-2P1::resiliency"
+              }
+            ],
+            "domainTypes": [
+              "SNCP"
+            ],
+            "resilienceLevel": "partial"
+          },
+          "relationships": {
+            "frePlanned": {
+              "data": {
+                "type": "frePlanned",
+                "id": "820599826141136524"
+              }
+            },
+            "freExpectations": {
+              "data": [
+                {
+                  "type": "freExpectations",
+                  "id": "820599826141136524::5ee36f6d-9db0-46a4-83d3-9c088f7c8376"
+                }
+              ]
+            },
+            "freDiscovered": {
+              "data": {
+                "type": "freDiscovered",
+                "id": "820599826141136524"
+              }
+            },
+            "endPoints": {
+              "data": [
+                {
+                  "type": "endPoints",
+                  "id": "820599826141136524:1"
+                },
+                {
+                  "type": "endPoints",
+                  "id": "820599826141136524:2"
+                }
+              ]
+            },
+            "partitionFres": {
+              "data": [
+                {
+                  "type": "fres",
+                  "id": "1772b423-a7f1-3127-ae01-fa277e939c12::FRE_1772b423-a7f1-3127-ae01-fa277e939c12::TPE_1772b423-a7f1-3127-ae01-fa277e939c12::EQPT_2_16_1-1-CTPServerToClient-1_1772b423-a7f1-3127-ae01-fa277e939c12::TPE_1772b423-a7f1-3127-ae01-fa277e939c12::EQPT_2_16_5-5-CTPServerToClient-1"
+                },
+                {
+                  "type": "fres",
+                  "id": "6122258370756598704"
+                },
+                {
+                  "type": "fres",
+                  "id": "6455977301037282689"
+                },
+                {
+                  "type": "fres",
+                  "id": "6152848353124834522"
+                },
+                {
+                  "type": "fres",
+                  "id": "aa6da7a1-5c4e-31bb-b59f-1b1c962c3e3e::FRE_aa6da7a1-5c4e-31bb-b59f-1b1c962c3e3e::TPE_aa6da7a1-5c4e-31bb-b59f-1b1c962c3e3e::EQPT_1_16_1-1-CTPServerToClient-1_aa6da7a1-5c4e-31bb-b59f-1b1c962c3e3e::TPE_aa6da7a1-5c4e-31bb-b59f-1b1c962c3e3e::EQPT_1_16_5-5-CTPServerToClient-1"
+                }
+              ]
+            }
+          }
+        },
+        "included": [
+          {
+            "id": "820599826141136524:1",
+            "type": "endPoints",
+            "attributes": {
+              "role": "symmetric",
+              "directionality": "bidirectional"
+            },
+            "relationships": {
+              "tpes": {
+                "data": [
+                  {
+                    "type": "tpes",
+                    "id": "1772b423-a7f1-3127-ae01-fa277e939c12::TPE_1772b423-a7f1-3127-ae01-fa277e939c12::EQPT_2_16_1-1-CTPServerToClient-1"
+                  }
+                ]
+              },
+              "networkConstructs": {
+                "data": [
+                  {
+                    "type": "networkConstructs",
+                    "id": "1772b423-a7f1-3127-ae01-fa277e939c12"
+                  }
+                ]
+              },
+              "equipment": {
+                "data": [
+                  {
+                    "type": "equipment",
+                    "id": "1772b423-a7f1-3127-ae01-fa277e939c12::EQPT_2_16_1"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "820599826141136524:2",
+            "type": "endPoints",
+            "attributes": {
+              "role": "symmetric",
+              "directionality": "bidirectional"
+            },
+            "relationships": {
+              "tpes": {
+                "data": [
+                  {
+                    "type": "tpes",
+                    "id": "aa6da7a1-5c4e-31bb-b59f-1b1c962c3e3e::TPE_aa6da7a1-5c4e-31bb-b59f-1b1c962c3e3e::EQPT_1_16_1-1-CTPServerToClient-1"
+                  }
+                ]
+              },
+              "networkConstructs": {
+                "data": [
+                  {
+                    "type": "networkConstructs",
+                    "id": "aa6da7a1-5c4e-31bb-b59f-1b1c962c3e3e"
+                  }
+                ]
+              },
+              "equipment": {
+                "data": [
+                  {
+                    "type": "equipment",
+                    "id": "aa6da7a1-5c4e-31bb-b59f-1b1c962c3e3e::EQPT_1_16_1"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "820599826141136524::5ee36f6d-9db0-46a4-83d3-9c088f7c8376",
+            "type": "freExpectations",
+            "attributes": {
+              "validateParameters": {
+                "include": "all"
+              },
+              "userLabel": "SNCP_ODU2_TAIL_CONN1_TS3",
+              "layerRate": "ODU2",
+              "networkRole": "IFRE",
+              "directionality": "bidirectional",
+              "topologySources": [
+                "stitched"
+              ],
+              "active": true,
+              "additionalAttributes": {
+                "IS_TOP_LEVEL_FRE": "true",
+                "isOTNTailConfig": "true"
+              }
+            },
+            "relationships": {
+              "serviceIntent": {
+                "data": {
+                  "type": "serviceIntents",
+                  "id": "5ee36f6d-9db0-46a4-83d3-9c088f7c8376"
+                }
+              },
+              "endPoints": {
+                "data": [
+                  {
+                    "type": "endPoints",
+                    "id": "820599826141136524:1"
+                  },
+                  {
+                    "type": "endPoints",
+                    "id": "820599826141136524:2"
+                  }
+                ]
+              },
+              "partitionFres": {
+                "data": [
+                  {
+                    "type": "fres",
+                    "id": "aa6da7a1-5c4e-31bb-b59f-1b1c962c3e3e::FRE_aa6da7a1-5c4e-31bb-b59f-1b1c962c3e3e::TPE_aa6da7a1-5c4e-31bb-b59f-1b1c962c3e3e::EQPT_1_16_1-1-CTPServerToClient-1_aa6da7a1-5c4e-31bb-b59f-1b1c962c3e3e::TPE_aa6da7a1-5c4e-31bb-b59f-1b1c962c3e3e::EQPT_1_16_5-5-CTPServerToClient-1"
+                  },
+                  {
+                    "type": "fres",
+                    "id": "6152848353124834522"
+                  },
+                  {
+                    "type": "fres",
+                    "id": "6455977301037282689"
+                  },
+                  {
+                    "type": "fres",
+                    "id": "6122258370756598704"
+                  },
+                  {
+                    "type": "fres",
+                    "id": "1772b423-a7f1-3127-ae01-fa277e939c12::FRE_1772b423-a7f1-3127-ae01-fa277e939c12::TPE_1772b423-a7f1-3127-ae01-fa277e939c12::EQPT_2_16_1-1-CTPServerToClient-1_1772b423-a7f1-3127-ae01-fa277e939c12::TPE_1772b423-a7f1-3127-ae01-fa277e939c12::EQPT_2_16_5-5-CTPServerToClient-1"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "controllerPresent": false
+    }
+  }
+}
